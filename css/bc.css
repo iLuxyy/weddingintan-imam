@@ -1,0 +1,784 @@
+*, html, body {
+  margin: 0px;
+  padding: 0px;
+}
+.row{
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+.khususdisplay{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.coverundangan{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/bg1.jpg');
+  background-size: cover;
+  background-position: center;  
+  justify-content: center;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  overflow: hidden;
+}
+
+.homecontainer{  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+  padding: 50px;  
+  display: grid;
+}
+.titlehome{
+  place-self:start ;
+}
+.titlehome1{
+  place-self:center ;
+}
+.titlehome h1{
+  font-size: 4rem;
+  font-family: "Stalemate", cursive;
+  font-style: normal;
+}
+.titlehome p{
+  font-family: "Waterfall", cursive;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.titlehome1 p{  
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;  
+  margin: 0px;
+}
+.titlehome1 h4{  
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.titlehome1 i{  
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+
+/*** halaman utama ***/
+
+.coverhome{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/bg2.jpg');
+  background-size: cover;
+  background-position: center;  
+  justify-content: center;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;  
+  display: flex;
+}
+
+.titlehome h4{  
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;  
+  margin: 0px;
+}
+
+/*** halaman love ***/
+
+
+.coverlove{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/bg3.jpg');
+  background-size: cover;
+  background-position: center;  
+  justify-content: center;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;  
+  display: flex;
+}
+
+.lovecontainer{  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+  padding: 50px;  
+}
+.titlelove{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+.titlelove h1{
+  font-size: 2rem;
+  font-family: "Stalemate", cursive;
+  font-style: normal;
+}
+.titlelove p{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 15px;
+}
+
+/*** halaman manten ***/
+
+
+.covermanten{
+  width: 100%;
+  height: 100%;
+  background-color: black; 
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  position: relative;
+}
+
+.mantencontainer{  
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/MLJ01638.jpg');
+  background-size: cover;
+  background-position: center;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  color: aliceblue;
+  display: grid;
+}
+.mantencontainer2{  
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/MLJ01644.jpg');
+  background-size: cover;
+  background-position: center;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  color: aliceblue;
+  display: grid;
+}
+.titlemanten{
+  padding: 20px;
+  padding-bottom: 50px;
+  place-self:end ;
+}
+.titlemanten h1{
+  font-size: 3rem;
+  font-family: "Stalemate", cursive;
+  font-style: normal;
+}
+.titlemanten h4{
+  font-size: 1.5rem;
+  font-family: "Waterfall", cursive;
+  font-style: normal;
+}
+.titlemanten p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.titlemanten a{
+  color: aliceblue;
+  text-decoration: none;
+  
+}
+.titlemanten i{
+  font-size: 20px;
+}
+
+/*** halaman timer ***/
+
+
+.covertimer{
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/bg4.jpg');
+  background-size: cover;
+  background-position: center;  
+  justify-content: center;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+.timercontainer{  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.timercontainer h1{  
+  font-size: 3rem;
+  font-family: "Stalemate", cursive;
+  font-style: normal;
+}
+.timercontainer a{
+  color: aliceblue;
+  text-decoration: none;
+  
+}
+/*** timer ***/
+.countdown-container {
+  text-align: center;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.countdown-item {
+  background-color: rgba(225, 225, 225, 0.3) !important;
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  padding: 20px;
+  width: 60px;
+  text-align: center;
+}
+
+.countdown-item span {
+  display: block;
+  font-size: 1em;
+  color:aliceblue;
+  font-family: 'Roboto', sans-serif;
+}
+
+.countdown-item p {
+  margin: 0;
+  font-size: 0.7em;
+  color:aliceblue;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*** halaman acara ***/
+
+
+.coveracara{
+  width: 100%;
+  height: 100%;
+  background-color: black;   
+  background-image: url('../img/bg6.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.acaracontainer{  
+  width: 100%;
+  height: 100%;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.titleacara{
+  padding: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.titleacara h1{
+  font-size: 3rem;
+  font-family: "Waterfall", cursive;
+  font-style: normal;
+}
+.titleacara h4{
+  font-size: 1.5rem;
+  font-family: "Waterfall", cursive;
+  font-style: normal;
+}
+.titleacara p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.titleacara a{
+  color: aliceblue;
+  text-decoration: none;  
+}
+.titleacara i{  
+  font-size: 50px;
+}
+
+/*** halaman galeri ***/
+
+
+.covergaleri{
+  width: 100%;
+  height: 100%;
+  background-color: black;   
+  background-image: url('../img/bg8.jpg');
+  background-size: cover;
+  background-position: center; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.galericontainer{  
+  width: 100%;
+  height: 100%;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.kontengaleri{
+  color: aliceblue;
+  padding: 10px;
+}
+.titlegaleri{
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.titlegaleri h1{
+  font-size: 3rem;
+  font-family: "Stalemate", cursive;
+  font-style: normal;
+}
+.titlegaleri p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.titleacara a{
+  color: aliceblue;
+  text-decoration: none;  
+}
+.titleacara i{  
+  font-size: 30px;
+}
+/*** halaman rsvp ***/
+
+
+.coverrsvp{
+  width: 100%;
+  height: 100%;
+  background-color: black;   
+  background-image: url('../img/bg7.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;  
+  display: flex;
+}
+.alignrsvp{  
+  background-color: rgba(29, 18, 18, 0.562) !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.rsvpcontainer{  
+  width: 100%;
+  height: 100%;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.titlersvp{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
+.titlersvp h1{
+  font-size: 3rem;
+  font-family: "Stalemate", cursive;
+  font-style: normal;
+}
+.titlersvp h4{
+  font-size: 1.5rem;
+  font-family: "Waterfall", cursive;
+  font-style: normal;
+}
+.titlersvp p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.titlrsvp a{
+  color: aliceblue;
+  text-decoration: none;  
+}
+.titlrsvp i{  
+  font-size: 30px;
+}
+/*** halaman hadiah ***/
+
+
+.covergift{
+  width: 100%;
+  height: 100vh;
+  background-color: black;   
+  background-image: url('../img/bg5.jpg');
+  background-size: cover;
+  background-position: center; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.boxgift{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+.boxgift h1{
+  font-size: 2.5rem;
+  font-family: "Stalemate", cursive;
+  font-style: normal;
+}
+.boxgift h4{
+  font-size: 3rem;
+  font-family: "Waterfall", cursive;
+  font-style: normal;
+}
+.boxgift p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.boxgift a{
+  color: aliceblue;
+  text-decoration: none;  
+}
+.boxgift i{  
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.giftcontainer{  
+  color: aliceblue;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+.titlegift{
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+.titlegift h1{
+  font-size: 2.5rem;
+  font-family: "Stalemate", cursive;
+  font-style: normal;
+}
+.titlegift h4{
+  font-size: 2.5rem;
+  font-family: "Waterfall", cursive;
+  font-style: normal;
+}
+.titlegift p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.titlegift a{
+  color: aliceblue;
+  text-decoration: none;  
+}
+.titlegift i{  
+  font-size: 20px;
+  padding-right: 10px;
+}
+.modal-content{
+  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.modal-header{
+  color: black;
+}
+
+.modal-header h1{
+  font-size: 1rem;
+  font-family: "Stalemate", cursive;
+  font-style: normal;
+}
+.modal-footer{
+  color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.modal-footer h1{
+  font-size: 2rem;
+  font-family: "Stalemate", cursive;
+  font-style: normal;
+}
+.fotobca{
+  width: 75px;
+}
+.modal-body{
+  color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.modal-bodyp{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 0px;
+}
+/*** halaman ending ***/
+
+
+.coverending{
+  width: 100%;
+  height: 100vh;
+  background-color: black;   
+  background-image: url('../img/bg9.jpg');
+  background-size: cover;
+  background-position: center; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.endingcontainer{  
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.titleending{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.titleending h1{
+  font-size: 4rem;
+  font-family: "Stalemate", cursive;
+  font-style: normal;
+}
+.titleending h4{
+  font-size: 3rem;
+  font-family: "Waterfall", cursive;
+  font-style: normal;
+}
+.titleending p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.titleending a{
+  color: aliceblue;
+  text-decoration: none;  
+}
+.titleending i{  
+  font-size: 30px;
+}
+
+/*** sound***/
+
+.audio-icon-wrapper {
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  position: fixed;
+  bottom: 10rem;
+  right: 1rem;
+  cursor: pointer;
+  color: white;
+  border-radius: 50px;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+  background-color: brown;
+}
+
+.music-player {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  bottom: 10rem;
+  right: 1rem;
+  cursor: pointer;
+  color: white;
+  border-radius: 50px;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+  background-color: brown;
+  transition: background-color 0.3s;
+}
+
+.music-player button {  
+  color: white;
+  border: none;
+  background-color: brown;
+}
+
+
+.hidden-content {
+  display: none;
+  transition: transform 2s ease-in-out;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;  
+  overflow: hidden;
+}
+#simplelistexample{
+  display: flex;  
+  transition: transform 1s ease-in-out;
+  overflow: hidden;
+  background-color: black;
+  position: absolute;
+  z-index: 999;
+}
+.hidden {
+  transform: translateY(-100%);
+}
+
+
+.borderucapan{
+  padding: 10px;
+  color: #000000;
+}
+.chat-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  overflow-y: auto;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chat-bubble {
+  position: relative;
+  padding: 10px 15px;
+  border-radius: 40px;
+  max-width: auto;
+  text-align: left;
+  color: #ffffff;
+}
+
+.sent {
+  align-self: flex-start;
+  margin: 10px;
+  color: #ffffff;
+}
+
+
+.sent p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.chat-bubble p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 0px;
+}
+.sent::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -10px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-left-color: #dcf8c6;
+}
+
+
+.titlephp{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.titlephp h1{
+  font-size: 1.5rem;
+  font-family: "Stalemate", cursive;
+  font-style: normal;
+}
+.titlephp h4{
+  font-size: 1.5rem;
+  font-family: "Waterfall", cursive;
+  font-style: normal;
+}
+.titlephp p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.titlephp a{
+  color: aliceblue;
+  text-decoration: none;  
+}
+.titlephp i{  
+  font-size: 30px;
+}
+.modal-header{  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.modal-header h1{
+  font-size: 2.5rem;
+  font-family: "Waterfall", cursive;
+  font-style: normal;
+}
+.garis-custom {
+    border: none; /* Hapus garis default */
+    height: 1px; /* Atur ketebalan garis */
+    background-color: #ffffff; /* Atur warna garis */
+    margin: 5px 0; /* Tambahkan jarak atas dan bawah */
+  }
