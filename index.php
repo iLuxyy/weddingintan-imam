@@ -10,31 +10,31 @@
     <title>Invitation Intan&Imam</title>
         
     <!-- META OG TAGS UNTUK SHARE -->
-    <meta property="og:title" content="weddingkiki&sanjay" />
-    <meta property="og:description" content="weddingkiki&sanjay" />
-    <meta property="og:image" content="https://saintkreavi.web.id/weddingkiki&sanjay/img/MLJ01703.jpg" />
-    <meta property="og:url" content="https://saintkreavi.web.id" />
+    <meta property="og:title" content="weddingintan&imam" />
+    <meta property="og:description" content="weddingintan&imam" />
+    <meta property="og:image" content="https://iluxyy.github.io/weddingintan-imam/img/tumbnail.jpg" />
+    <meta property="og:url" content="https://iluxyy.github.io/weddingintan-imam/" />
     <meta property="og:type" content="website" />
 
     <!-- (Opsional) Untuk Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="weddingkiki&sanjay">
-    <meta name="twitter:description" content="weddingkiki&sanjay">
-    <meta name="twitter:image" content="https://saintkreavi.web.id/weddingkiki&sanjay/img/MLJ01703.jpg">
+    <meta name="twitter:title" content="weddingintan&imam">
+    <meta name="twitter:description" content="weddingintan&imam">
+    <meta name="twitter:image" content="https://iluxyy.github.io/weddingintan-imam/img/tumbnail.jpg">
 
     
     <!-- ✅ Meta OG untuk Facebook, WhatsApp, dll -->
-    <meta property="og:title" content="weddingkiki&sanjay" />
-    <meta property="og:description" content="weddingkiki&sanjay" />
-    <meta property="og:image" content="https://saintkreavi.web.id/weddingkiki&sanjay/img/MLJ01703.jpg" />
-    <meta property="og:url" content="https://saintkreavi.web.id/weddingkiki&sanjay" />
+    <meta property="og:title" content="weddingintan&imam" />
+    <meta property="og:description" content="weddingintan&imam" />
+    <meta property="og:image" content="https://iluxyy.github.io/weddingintan-imam/img/tumbnail.jpg" />
+    <meta property="og:url" content="https://iluxyy.github.io/weddingintan-imam/" />
     <meta property="og:type" content="website" />
 
     <!-- ✅ Meta Twitter (opsional) -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content=weddingkiki&sanjay" />
-    <meta name="twitter:description" content="weddingkiki&sanjay" />
-    <meta name="twitter:image" content="https://saintkreavi.web.id/weddingkiki&sanjay/img/MLJ01703.jpg" />
+    <meta name="twitter:title" content=weddingintan&imam" />
+    <meta name="twitter:description" content="weddingintan&imam" />
+    <meta name="twitter:image" content="https://iluxyy.github.io/weddingintan-imam/img/tumbnail.jpg" />
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -339,7 +339,9 @@
                         <h1>RSVP</h1>
                         <p>Kirim ucapan dan do'a untuk kami</p>
                     </div>
-                    <?php include "ucapan.php"; ?>
+                    <div class="titlersvp">
+                        <iframe src="https://saintkreavi.infinityfreeapp.com/weddingintan&imam/ucapan.php" width="100%" height="auto" frameborder="0"></iframe>
+                    </div>
                 </div>
             </div>
         </section>
